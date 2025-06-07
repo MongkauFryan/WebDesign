@@ -1,23 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>My Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e6f0f5;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    .profile-container {
+      background-color: #c3dcec;
+      border: 1px solid #b3c6d7;
+      width: 600px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .header {
+      background-color: #617d9a;
+      padding: 15px 20px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #f4f5f6;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .photo-section img {
+        width: 160px;
+        height: 210px;
+        object-fit: cover;
+        border: 1px solid #888;
+    }
+
+    .info-table {
+        font-size: 13.5px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .info-table td {
+        padding: 4px 0;
+        vertical-align: top;
+    }
+
+    .info-table td:first-child {
+        width: 35%;
+        color: #333;
+    }
+
+    .info-table td:last-child {
+        font-weight: bold;
+        color: #333;
+    }
+
+    .profile-info img { 
+      width: 205px;
+      height: 255px;
+      object-fit: cover;
+      border: 1px solid rgb(222, 225, 253);
+      margin-right: 20px;
+    }
+   
+    .section-title {
+        font-weight: bold;
+        color: rgb(67, 73, 73);
+        font-size: 14px;
+        display: block;
+        border-bottom: 1px dashed gray;
+        padding-bottom: 5px;
+    }
+    .highlight {
+      color: green;
+      font-weight: bold;
+    }
+
+  </style>
 </head>
 <body>
-    <h1>Header</h1>
-    <input type="text">
-    <img src="asset/Attack on Titan.jpg" alt="attack" width="300">
-    <p>mari kita coba</p>
-    <h2>Practice</h2>
-    <h3>Jauh</h3>
-    <h4>Latihan</h4>
-    <h5>Lagi</h5>
-    <h6>go</h6>
-    
-    <body>
-        <h1 style="color: red;">Biodata diri 
-        <input type ="password">
+  <div class="profile-container">
+    <div class="header">My Profile</div>
+    <div class="profile-info">
+      <img src="WebDesign/image/Screenshot 2025-06-06 212520.png" alt="Profile Photo" />
+    </div>
+    <table class="info-table">
+        <tr><td>Registration Number/ NIM</td><td>: 12410420 / 105012410070</td></tr>
+        <tr><td>Name</td><td>: MONGKAU, FRYAN FERIS IFERSON</td></tr>
+        <tr><td>Program</td><td>: Normal Program</td></tr>
+        <tr><td>Name in IJAZAH</td><td>: FRYAN FERIS IFERSON MONGKAU </td></tr>
+        <tr><td>Financial Number</td><td>: S12410420</td></tr>
+        <tr><td>Gender</td><td>: Male</td></tr>
+        <tr><td>Place/ Date of Birth</td><td>: TUMALUNTUNG, 2005-04-17</td></tr>
+        <tr><td>Academic Status/ Curriculum Block</td><td>: <span class="highlight">Active/ Unblock</span></td></tr>
+        <tr><td>Religion</td><td>: KRISTEN PROTESTAN</td></tr>
+        <tr><td>Residence</td><td>: Outsider - Long Range</td></tr>
+        <tr><td>Marital status</td><td>: Single</td></tr>
+        <tr><td>Faculty</td><td>: Fakultas Ilmu Komputer</td></tr>
+        <tr><td>Program Study/ Minor</td><td>: Sistem Informasi / -</td></tr>
+        <tr><td>Curriculum Name</td><td>: Sistem Informasi 2024</td></tr>
+        <tr><td>Academic Probation</td><td>:</td></tr>
+        <tr><td>Race</td><td>: Minahasa</td></tr>
+        <tr><td>Address</td><td>: Lingkungan I, RT/RW 000/000, KELURAHAN WANEA, KECAMATAN WANEA, Manado, Sulawesi Utara</td></tr>
+      </table>
+
+      <span class="section-title">My Mother</span>
+      <table class="info-table">
+        <tr><td>Name</td><td>: Axxxx Pxxxxx Cxxxxx Rxxxxx</td></tr>
+        <tr><td>Address</td><td>: Lingkungan I, RT/RW 000/000, KELURAHAN WANEA, KECAMATAN WANEA, Manado, Sulawesi Utara</td></tr>
+        <tr><td>Phone</td><td>: 081234578910</td></tr>
+      </table>
+
+      <span class="section-title">My Father</span>
+      <table class="info-table">
+        <tr><td>Name</td><td>: Jxxxx Sxxxxx Mongkau</td></tr>
+        <tr><td>Address</td><td>: Lingkungan I, RT/RW 000/000, KELURAHAN WANEA, KECAMATAN WANEA, Manado, Sulawesi Utara</td></tr>
+        <tr><td>Phone</td><td>: 081234578910</td></tr>
+      </table>
+
+      <span class="section-title">My Guardian</span>
+      <table class="info-table">
+        <tr><td>Name</td><td>: </td></tr>
+        <tr><td>Address</td><td>: </td></tr>
+        <tr><td>Phone</td><td>: </td></tr>
+      </table>
+
+  </div>
+</body>
 </html>
